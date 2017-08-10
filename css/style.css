@@ -383,6 +383,14 @@ margin-top: 25px;
 .gallery .no-padding{
 	padding:0;
 }
+@media screen and (max-width: 580px) {
+	.gallery img{
+		min-height: 270px;
+		max-height: 270px;
+		padding-top: 10px;
+	}
+
+}
 
 /*=========== TEAM =============*/
 .team{

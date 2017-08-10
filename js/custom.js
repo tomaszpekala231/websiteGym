@@ -5,10 +5,10 @@ $(document).ready(function() {
 		setInterval( function() {
 		'use strict';
 		var windowHeight = $(window).height();
-		var containerHeight = $(".header").height();
+		var containerHeight = $(".header-overlay ").height();
 		var padTop = windowHeight - containerHeight;
 
-		$(".header").css({
+		$(".header-overlay").css({
 			'padding-top': Math.round( padTop / 2) + 'px',
 			'padding-bottom': Math.round( padTop / 2) + 'px'
         }); 
