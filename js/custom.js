@@ -1,21 +1,4 @@
 
-// add auto padding to header
-$(document).ready(function() {
-		 'use strict';
-		setInterval( function() {
-		'use strict';
-		var windowHeight = $(window).height();
-		var containerHeight = $(".header-overlay ").height();
-		var padTop = windowHeight - containerHeight;
-
-		$(".header-overlay").css({
-			'padding-top': Math.round( padTop / 2) + 'px',
-			'padding-bottom': Math.round( padTop / 2) + 'px'
-        }); 
-        
-    }, 10)  
-    
-});
 // Select all links with hashes
 $('a[href*="#"]')
   // Remove links that don't actually link to anything

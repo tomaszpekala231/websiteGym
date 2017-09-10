@@ -31,43 +31,39 @@ h1{
 	position: relative;
 	width:100vw;
 	z-index: 1;
+	
 }
 .header-overlay{
 	background-color: rgba(31,31,31,0.3);
 	height:100vh;
+	 display: flex;
+  	align-items: center;
+  	justify-content: center;
 }
 
 .main-title h1{
 	font-size: 4.5em;
-	margin-top:25%;
+	
 }
 .main-title h2{
 	font-size: 40px;
 	font-size:3em;
 }
-.text-header{
-	border:1px solid black;
-	text-align: center;
-	background: rgba(31,31,31,0.5);
-	padding: 20px;
-	color:#e6e6e6;
-	font-family: 'Open Sans', sans-serif;
-	margin-top:15%;
-}
-.text-header h3{
-	font-size: 2em;
-}
-.text-header p{
-	font-size: 1.2em;
-	padding-top:1rem;
-}
+
 .main-title{
 	text-align: center;
 	color:#fff;
 	font-family: 'Open Sans', sans-serif;
 }
-.bg-red{
-	background:#ff3333 ;
+.bg-color{
+	background-color: rgba(31,31,31,0.8);
+	padding:30px;
+	position: relative;
+	z-index: 2;
+
+}
+.bg-color2{
+	background-color: rgba(31,31,31,0.9);
 	padding:30px;
 	position: relative;
 	z-index: 2;
@@ -78,32 +74,31 @@ h1{
 	text-align: center;
 	font-size:1.7em;
 	color:#e6e6e6;
-	
-
+	padding:0 100px 0 100px;
 }
+.text-header_down h3{
+	font-size: 1.5em;
+}
+.text-header_down p{
+	font-size:0.9em;
+}
+
 @media screen and (max-width: 576px) {
-	.main-title h1{
-	font-size: 3em;
-	margin-top:50%;
+.main-title h1{
+	font-size: 4em;
 }
 .main-title h2{
 	font-size: 2.3em;
 }
-.mobile-none{
-display:none; 
 
-}
 }
 
 @media screen and (max-width: 766px) {
-	.mobile-none{
-display:none; 
 
 }
-}
 @media screen and (max-width: 996px) {
-		.mobile-none{
-display:none; 
+.mobile-none{
+	display: none;
 }
 }
 
@@ -137,30 +132,46 @@ font-size:1.3em;
 }
 /*==================== Services ================*/
 .services{
-	padding-top:80px;
+	padding-top:14%;
 }
-.services h1{
+.services h2{
 	text-align: center;
+	font-size:2.8em;
 }
 .services h3{
 	font-size: 22px;
 	padding-left:45px;
+}
+.services p{
+	font-size: 1.1em;
 }
 .services i{
 	font-size: 28px;
 	position: relative;
 	top:47px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
 	.services{
 	padding-top:40px;
 }
 	.services i{
 		margin-left:10px;
 	}
+	.services h2{
+	text-align: center;
+	font-size:2em;
+}
+.services p{
+	font-size: 1.2em;
+}
+.services h3{
+	font-size: 2em;
+	padding-left:45px;
+}
 	.services p{
 		margin-left:10px;
 		padding-right: 10px;
+		font-size:1.3em;
 	}
 }
 .dark-bg{
@@ -173,18 +184,20 @@ font-size:1.3em;
 	-moz-background-size: cover; 
 	-o-background-size: cover; 
 	background-attachment: fixed;
-	margin-top: 50px;
+	margin-top: 80px;
 	padding-bottom: 30px;
 }
-.dark-bg h1{
+.dark-bg h2{
 	color: #e6e6e6;
 	padding-top: 20px;
+	font-size: 2.8em;
 }
 .dark-bg p{
 	color: #e6e6e6;
 	text-align: center;
 	padding: 10px 0 20px 0;
 	line-height: 1.6em;
+	font-size: 1.4em;
 }
 .dark-bg img{
 	min-height: 250px;
