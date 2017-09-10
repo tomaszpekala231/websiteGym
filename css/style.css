@@ -42,7 +42,7 @@ h1{
 }
 
 .main-title h1{
-	font-size: 4.5em;
+	font-size: 5em;
 	
 }
 .main-title h2{
@@ -54,6 +54,8 @@ h1{
 	text-align: center;
 	color:#fff;
 	font-family: 'Open Sans', sans-serif;
+	background-color: rgba(31,31,31,0.3);
+	padding:30px;
 }
 .bg-color{
 	background-color: rgba(31,31,31,0.8);
@@ -85,7 +87,7 @@ h1{
 
 @media screen and (max-width: 576px) {
 .main-title h1{
-	font-size: 4em;
+	font-size: 5em;
 }
 .main-title h2{
 	font-size: 2.3em;
@@ -153,6 +155,9 @@ font-size:1.3em;
 @media screen and (max-width: 576px) {
 	.services{
 	padding-top:40px;
+}
+.services{
+	padding-top:8%;
 }
 	.services i{
 		margin-left:10px;
