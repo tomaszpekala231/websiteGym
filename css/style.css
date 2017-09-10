@@ -85,6 +85,7 @@ display:none;
 
 }
 }
+
 @media screen and (max-width: 766px) {
 	.mobile-none{
 display:none; 
