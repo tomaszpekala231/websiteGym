@@ -1,8 +1,19 @@
+
 *{
 	margin:0;
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
 }
+
+body{
+	overflow-x: hidden;
+}
+body,html{
+	height:100%;
+	width:100%;
+	
+}
+
 h1{
 	text-align: center;
 }
@@ -11,67 +22,80 @@ h1{
 /* ========== header ==========*/
 .header{
 	background: url(../img/background.jpg) no-repeat;
-	background-position:50% 50%;
 	background-size: cover;
 	-webkit-background-size: cover; 
 	-moz-background-size: cover; 
 	-o-background-size: cover; 
 	background-attachment: fixed;
+	position: relative;
+	width:100%;
+	z-index: 1;
 }
 .header-overlay{
 	background-color: rgba(31,31,31,0.3);
-	
+	height:100vh;
+}
+
+.main-title h1{
+	font-size: 50px;
+	margin-top:25%;
+}
+.main-title h2{
+	font-size: 40px;
 }
 .text-header{
 	border:1px solid black;
 	text-align: center;
 	background: rgba(31,31,31,0.5);
-	margin-top:140px;
-	margin-bottom: 123px;
+	padding: 20px;
 	color:#e6e6e6;
 	font-family: 'Open Sans', sans-serif;
+	margin-top:15%;
 }
-
-
-@media screen and (max-width: 480px) {
-	.header .main-title{
-		margin-top:150px;
-	}
-	.text-header{
-	border:1px solid black;
-	text-align: center;
-	background: rgba(31,31,31,0.5);
-	margin-top:30px;
-	margin-bottom: 0;
-	color:#e6e6e6;
-	font-family: 'Open Sans', sans-serif;
-}
-}
-
-
-
 .main-title{
 	text-align: center;
-	margin-top:290px;
 	color:#fff;
 	font-family: 'Open Sans', sans-serif;
 }
-.main-title h1{
-	font-size: 50px;
+.bg-red{
+	background:#ff3333 ;
+	padding:30px;
+	position: relative;
+	z-index: 2;
+
 }
-.main-title h2{
-	font-size: 40px;
-}
-.header-down{
-	background:#ff3333;
-	min-height: 167px;
-}
+
 .text-header_down{
 	text-align: center;
 	font-size:22px;
 	color:#e6e6e6;
-	padding-top:30px;
+	
+
 }
+@media screen and (max-width: 576px) {
+	.main-title h1{
+	font-size: 40px;
+	margin-top:50%;
+}
+.main-title h2{
+	font-size: 30px;
+}
+.mobile-none{
+display:none; 
+
+}
+}
+@media screen and (max-width: 766px) {
+	.mobile-none{
+display:none; 
+
+}
+}
+@media screen and (max-width: 967px) {
+		.mobile-none{
+display:none; 
+}
+
 /* ==========  navigation ======== */
 .navbar-default{
 	background: #444 !important;
