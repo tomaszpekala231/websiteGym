@@ -34,7 +34,7 @@ h1{
 	
 }
 .header-overlay{
-	background-color: rgba(31,31,31,0.3);
+	background: rgba(0,0,0,0.4);
 	height:100vh;
 	 display: flex;
   	align-items: center;
@@ -42,20 +42,41 @@ h1{
 }
 
 .main-title h1{
-	font-size: 5em;
+	font-size: 6rem;
+	text-align:left;
+	font-weight: 700;
+	line-height: 1.2em;
+	color:#EB1F29;
 	
 }
-.main-title h2{
-	font-size: 40px;
-	font-size:3em;
+.main-title span{
+	color:#fff;
 }
-
+.main-title .my-button{
+	text-align:left;
+	margin-top: 30px;
+	padding:20px;
+	max-width:220px;
+	background: transparent;
+	border: 2px solid white;
+	border-radius: 40px;
+	font-size: 1.8rem;
+	transition: all 0.2s ease-in-out;
+}
+.main-title .my-button:hover{
+	background-color:#EB1F29;
+	border: 2px solid #EB1F29;
+}
+.header-p{
+	max-width: 600px;
+	padding-top: 30px;
+	font-size: 1.8rem;
+}
 .main-title{
-	text-align: center;
 	color:#fff;
 	font-family: 'Open Sans', sans-serif;
-	background-color: rgba(31,31,31,0.4);
-	padding:30px;
+	padding: 2rem;
+
 }
 .bg-color{
 	background-color: rgba(31,31,31,0.8);
@@ -79,21 +100,19 @@ h1{
 	padding:0 100px 0 100px;
 }
 .text-header_down h3{
-	font-size: 1.5em;
+	font-size: 3rem;
 }
 .text-header_down p{
-	font-size:0.9em;
+	font-size:1.9rem;
 }
 
 @media screen and (max-width: 576px) {
-	.main-title{
-	background-color: rgba(31,31,31,0.4);
-}
+
 .main-title h1{
-	font-size: 5em;
+	font-size: 4rem;
 }
 .main-title h2{
-	font-size: 2.3em;
+	font-size: 3.2rem;
 }
 
 }
@@ -137,7 +156,7 @@ font-size:1.3em;
 }
 /*==================== Services ================*/
 .services{
-	padding-top:14%;
+	padding-top:2%;
 }
 .services h2{
 	text-align: center;
