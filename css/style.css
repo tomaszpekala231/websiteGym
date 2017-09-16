@@ -61,7 +61,7 @@ h1{
 	border: 2px solid white;
 	border-radius: 40px;
 	font-size: 1.8rem;
-	transition: all 0.2s ease-in-out;
+	transition: background 0.2s ease-in-out;
 }
 .main-title .my-button:hover{
 	background-color:#EB1F29;
@@ -138,7 +138,7 @@ h1{
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	display: block;
-	font-size:1.3em;
+	font-size:1.9rem;
 }
 .navbar-default .navbar-nav > li > a:hover{
 	background-color: #ff4d4d !important;
@@ -374,6 +374,8 @@ opacity:1;
 .ourPlans p{
 	text-align: center;
 	padding-bottom: 50px;
+	font-size: 2rem;
+	padding-top:15px;
 }
 .ourPlans .offer{
 	border:1px solid black;
@@ -441,7 +443,9 @@ margin-top: 25px;
 	text-align: center;
 	padding-bottom: 50px;
 	padding-top:10px;
-	font-size: 17px;
+	padding-left:80px;
+	padding-right: 80px;
+	font-size: 2rem;
 }
 .gallery img{
 	width: 100%;
@@ -475,9 +479,9 @@ margin-top: 25px;
 	text-align: center;
 }
 .team p{
-	font-size: 17px;
+	font-size: 2.2rem;
 	text-align: center;
-	padding:10px 0 10px 0;
+	padding:10px 30px 10px 30px;
 }
 .team img{
 	width: 60%;

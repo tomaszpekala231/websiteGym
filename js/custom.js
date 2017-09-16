@@ -60,5 +60,67 @@ navigation:false
 });
 
 
+$(function(){
+
+  window.sr = ScrollReveal();
+ 
+       sr.reveal('.main-title h1', {
+         duration: 1000,
+        reset: false,
+       opacity: 0,
+       scale: 0.5,
+       easing: 'ease-in-out'
+      });
+       sr.reveal('.main-title .header-p', {
+         duration: 1000,
+        reset: false,
+        opacity: 0,
+         easing: 'ease-in-out',
+         delay:500
+      });
+        sr.reveal('.my-button', {
+         duration: 1000,
+        reset: false,
+        opacity: 0,
+         easing: 'ease-in-out',
+         delay:900
+      });
+        sr.reveal('.services .animated', {
+         duration: 1000,
+        reset: false,
+        opacity: 0,
+         easing: 'ease-in-out',
+         delay:400
+      });
+        sr.reveal('.ourPlans .offer_best ', {
+         duration: 700,
+        reset: false,
+        opacity: 0,
+        scale:0.5,
+         easing: 'ease-in-out',
+         delay:400
+      });
+        sr.reveal('.gallery .animated ', {
+         duration: 1000,
+        reset: false,
+        opacity: 0,
+         easing: 'ease-in-out',
+         delay:400
+      });
+         sr.reveal('.member-team .animated ', {
+         duration: 1000,
+        reset: false,
+        opacity: 0,
+         easing: 'ease-in-out',
+         delay:400
+      });
+
+
+        
+
+});
+
+
+
    
 
