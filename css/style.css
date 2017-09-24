@@ -24,9 +24,9 @@ h1{
 .header{
 	background: url(../img/background.jpg) no-repeat;
 	background-size: cover;
-	-webkit-background-size: cover; 
-	-moz-background-size: cover; 
-	-o-background-size: cover; 
+	-webkit-background-size: 100%; 
+	-moz-background-size: 100%; 
+	-o-background-size: 100%; 
 	background-attachment: fixed;
 	position: relative;
 	width:100vw;
