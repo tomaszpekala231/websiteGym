@@ -22,11 +22,11 @@ h1{
 
 /* ========== header ==========*/
 .header{
-	background: url(../img/background.jpg) no-repeat;
+	background: url(../img/background.jpg) no-repeat center center;
 	background-size: cover;
-	-webkit-background-size: 100%; 
-	-moz-background-size: 100%; 
-	-o-background-size: 100%; 
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
 	background-attachment: fixed;
 	position: relative;
 	width:100vw;
